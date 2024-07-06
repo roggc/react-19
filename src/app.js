@@ -1,12 +1,7 @@
 "use client";
 
-import Action from "./action";
-import comp1 from "./server-actions-components/comp1/comp1-action";
+import Comp1 from "./non-bloking-server-actions-components/comp1/callable";
 
 export default function () {
-  return (
-    <>
-      <Action name="Johnathan">{comp1}</Action>
-    </>
-  );
+  return <Comp1 name="Albert" />;
 }

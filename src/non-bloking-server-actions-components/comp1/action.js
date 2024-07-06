@@ -1,5 +1,6 @@
 "use server";
-import Comp1 from "./comp1";
+
+import Comp1 from "./output";
 
 export default function comp1({ name }) {
   const messagePromise = new Promise((res) =>

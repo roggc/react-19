@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack -w",
-    "start": "node --conditions react-server server/server.js",
-    "build-and-start": "npm run build && npm run start"
+    "dev": "webpack -w",
+    "start": "node --conditions react-server server/server.js"
   },
   "author": "",
   "license": "ISC",

@@ -3,7 +3,7 @@
 import Counter from "../../pure-client-components/counter";
 import Wrapper from "../../wrapper";
 
-const Comp1 = ({ greetingPromise }) => {
+export default function ({ greetingPromise }) {
   return (
     <>
       <div>
@@ -12,6 +12,4 @@ const Comp1 = ({ greetingPromise }) => {
       <Counter />
     </>
   );
-};
-
-export default Comp1;
+}
